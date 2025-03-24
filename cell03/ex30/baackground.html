@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>backgrouund</title>
+</head>
+<script>
+    function changeColor() {
+        var col = document.getElementById("body");
+        col.style.backgroundColor = "#" + ((1 << 24) * Math.random() | 0).toString(16).padStart(6, "0");
+    }
+</script>
+<body id='body'>
+    <button onclick="changeColor();" type="button">click me</button>
+    </body>
+</html>
