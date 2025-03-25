@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>piscineweb2</title>
+</head>
+<body style="font-size:275%;text-align: center;">
+Hello world
+</body>
+<br></br>
+<img src="https://media.newyorker.com/photos/665f65409ad64d9e7a494208/4:3/w_1003,h_752,c_limit/Chayka-screenshot-06-05-24.jpg" alt="1" width="500" height="600">
+<img src="https://www.jbmusic.com.ph/__resources/webdata/images/products/6056.jpg" alt="2" width="500" height="600">
+</html>
