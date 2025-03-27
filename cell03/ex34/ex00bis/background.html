@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>backgrouund</title>
+</head>
+<body id='body'>
+    <button>click me</button>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('button').click(function() {
+                $('#body').css("background-color", "#" + ((1 << 24) * Math.random() | 0).toString(16));
+            })
+        })
+    </script>
+</body>
+</html>
